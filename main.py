@@ -10,8 +10,8 @@ manipulating, and saving many different image file formats.
 """
 from PIL import Image
 
-image_path = '-path-'
-image_path_removebg = '-path-'
+image_path = 'images/Supercars2021.jpg'
+image_path_removebg = 'bg-remove-images/Supercars2021.png'
 
 taking_image = Image.open(image_path)
 giving_image = remove(taking_image)
